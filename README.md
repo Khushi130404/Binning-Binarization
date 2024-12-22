@@ -11,9 +11,18 @@ This repository demonstrates the concepts of binning and binarization using the 
   - Visualization: Generate graphs to visualize the effects of binning and binarization on the dataset.
 
 ## Dataset
-The project utilizes the Titanic dataset, with the following key features:
-- Age: Continuous numeric feature.
-- Fare: Continuous numeric feature.
-- SibSp: Discrete numeric feature.
-- Parch: Discrete numeric feature.
-- Survived: Binary target variable.
+The project uses the Titanic dataset, with the following primary features:-
+- Age: Continuous numeric feature representing passenger age.
+- Fare: Continuous numeric feature representing ticket fare.
+- SibSp: Discrete numeric feature for the number of siblings/spouses aboard.
+- Parch: Discrete numeric feature for the number of parents/children aboard.
+- Survived: Target variable indicating survival (0 = No, 1 = Yes).
+
+## Dependencies
+Ensure you have the following Python libraries installed:-
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
