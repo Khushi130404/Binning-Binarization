@@ -9,3 +9,11 @@ This repository demonstrates the concepts of binning and binarization using the 
   - With numeric encoding: Analyze the transformations after encoding categorical variables into numeric form.
   - Without numeric encoding: Observe the effects directly on raw numerical features.
   - Visualization: Generate graphs to visualize the effects of binning and binarization on the dataset.
+
+## Dataset
+The project utilizes the Titanic dataset, with the following key features:
+- Age: Continuous numeric feature.
+- Fare: Continuous numeric feature.
+- SibSp: Discrete numeric feature.
+- Parch: Discrete numeric feature.
+- Survived: Binary target variable.
